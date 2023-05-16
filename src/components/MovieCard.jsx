@@ -11,7 +11,7 @@ const MovieCard = (props) => {
                 <FaStar /> {props.movie.vote_average}
             </p>
 
-            {props.showLink && <a href={`movie/${props.movie.id}`}>Detalhes</a>}
+            {props.showLink && <a href={`/movie/${props.movie.id}`}>Detalhes</a>}
                 
         </div>
     )
