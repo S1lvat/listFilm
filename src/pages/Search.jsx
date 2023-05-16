@@ -48,6 +48,7 @@ const Search = () => {
                     <MovieCard 
                         key={movie.id}
                         movie = {movie}
+                        showLink = {true}
                     />
                 )}
             </div>
